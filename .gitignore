@@ -1,0 +1,37 @@
+# Credentials — never commit
+.credentials/
+*.keys.json
+.gsheets-server-credentials.json
+
+# MCP server source (cloned, large, regeneratable)
+.mcp-servers/
+
+# OMC working directory (state, logs, plans, sessions)
+.omc/
+
+# Build/cache artifacts (regeneratable)
+.scripts/fetched/
+.scripts/backup/
+.scripts/rewrite_groups/
+
+# Backup snapshots (git history covers this)
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "google-sheets": {
+      "command": "node",
+      "args": [
+        "C:/users/jungj/desktop/workout-knowledge/.mcp-servers/google-sheets-mcp/dist/index.js"
+      ],
+      "env": {
+        "GSHEETS_OAUTH_PATH": "C:/users/jungj/desktop/workout-knowledge/.credentials/gcp-oauth.keys.json",
+        "GSHEETS_CREDENTIALS_PATH": "C:/users/jungj/desktop/workout-knowledge/.credentials/.gsheets-server-credentials.json"
+      }
+    }
+  }
+}
