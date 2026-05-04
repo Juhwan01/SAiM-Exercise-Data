@@ -1,0 +1,33 @@
+ID: A02
+분류: RPE 자율조절
+이름: RPE-1RM% 변환표
+한줄설명: '렙수×목표RPE → 1RM 대비 % 자동 계산. 예: RPE9 3렙=88%, RPE8 5렙=80%'
+언제_발동: 세션 전 / 세트 직후
+쓰임새:
+  운동_추천: true
+  실시간_코칭: true
+  지식베이스: true
+필요한_정보:
+- 목표 RPE
+- 렙수
+- 사용자 1RM
+하는_일: 추천 무게 (kg)
+활용_예시: '세션 처방: ''오늘 5렙 RPE8 목표'' → 1RM의 80% 자동 계산해 무게 제시'
+근거:
+  출처: Tuchscherer / PowerliftingToWin
+  주소: |-
+    https://www.powerliftingtowin.com/a-review-of-mike-tuchscherer-reactive-training-systems-rts/
+  신뢰도: ★★★
+적용_위치:
+  매트릭스:
+  - 목표: 다이어트
+    모듈: 세트별 처방
+  - 목표: 벌크업
+    모듈: 세트별 처방
+  - 목표: 스트렝스
+    모듈: 세트별 처방
+  - 목표: 근육량 증가
+    모듈: 세트별 처방
+  - 목표: 건강증진
+    모듈: 세트별 처방
+  별도_레이어: []

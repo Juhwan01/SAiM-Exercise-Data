@@ -1,0 +1,23 @@
+ID: Q01
+분류: 부상 관리
+이름: 급성 부상 처치 (PEACE & LOVE)
+한줄설명: |-
+  급성기(0~3d): Protect·Elevate·Avoid anti-inflam·Compress·Educate. 후속: Load·Optimism·Vascular·Exercise. RICE는 구식
+언제_발동: 부상 후
+쓰임새:
+  운동_추천: false
+  실시간_코칭: true
+  지식베이스: true
+필요한_정보:
+- 부상 시점
+- 부위
+하는_일: 단계별 가이드
+활용_예시: 급성 부상 입력 → 자동 단계 안내
+근거:
+  출처: Dubois 2019 BJSM
+  주소: https://bjsm.bmj.com/content/54/2/72
+  신뢰도: ★★★
+적용_위치:
+  매트릭스: []
+  별도_레이어:
+  - 부상 이벤트 트리거

@@ -1,0 +1,27 @@
+ID: G08
+분류: 회복/디로드
+이름: MRV 도달 시 강제 디로드
+한줄설명: |-
+  부위별 주간 세트가 MRV(보통 18~25세트) 도달하고 RPE가 같은 무게에서 +1 이상 상승하면 다음 주 강제 디로드. 메조 최대 6주 초과 금지
+언제_발동: 메조 4~6주차
+쓰임새:
+  운동_추천: true
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 부위별 누적 세트
+- RPE drift
+- 주차 카운터
+하는_일: 다음 주 G05 처방 강제 + 다음 메조는 MEV(10~12세트)에서 재시작
+활용_예시: 등 24세트/주 6주차 RPE +1.2 → 7주차 디로드, 8주차 새 메조는 12세트로 시작
+근거:
+  출처: Israetel — Volume Landmarks (Renaissance Periodization)
+  주소: https://renaissanceperiodization.com/training-volume-landmarks-muscle-growth/
+  신뢰도: ★★☆
+적용_위치:
+  매트릭스:
+  - 목표: 스트렝스
+    모듈: 메조사이클 관리
+  - 목표: 근육량 증가
+    모듈: 메조사이클 관리
+  별도_레이어: []

@@ -1,0 +1,28 @@
+ID: A03
+분류: RPE 자율조절
+이름: Fatigue Percent (피로 누적률)
+한줄설명: 톱셋(RPE9) 후 무게를 N% 줄여 같은 RPE 도달까지 백오프 세트 누적. 정해진 누적량 도달 시 운동 종료
+언제_발동: 세션 중
+쓰임새:
+  운동_추천: false
+  실시간_코칭: true
+  지식베이스: false
+필요한_정보:
+- 톱셋 무게/RPE
+- 백오프 세트 RPE
+하는_일: '''운동 종료'' 신호 또는 ''한 세트 더'' 신호'
+활용_예시: 컨디션 좋은 날엔 자연스럽게 세트 수 늘어남, 나쁜 날엔 줄어듦. 사용자 부담 없이 자동 조절
+근거:
+  출처: Tuchscherer / All Things Gym
+  주소: |-
+    https://www.allthingsgym.com/mike-tuchscherer-auto-regulation-fundamentals-fatigue-percentages/
+  신뢰도: ★★★
+적용_위치:
+  매트릭스:
+  - 목표: 벌크업
+    모듈: 세트별 처방
+  - 목표: 스트렝스
+    모듈: 세트별 처방
+  - 목표: 근육량 증가
+    모듈: 세트별 처방
+  별도_레이어: []

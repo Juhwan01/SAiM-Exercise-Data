@@ -1,0 +1,30 @@
+ID: C11
+분류: 세트/렙/강도 처방
+이름: 세션 길이 가이드
+한줄설명: 효율 세션 45~75분. 분할로 길이 조절. 90분+ 코르티솔 주장은 1차 출처 약함
+언제_발동: 초기 셋업
+쓰임새:
+  운동_추천: true
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 가용 시간
+- 분할
+하는_일: 세션 운동 수/세트 수 자동 조정
+활용_예시: '''40분만 가능'' 입력 → 운동 4~5개로 압축한 세션 자동 빌드'
+근거:
+  출처: NSCA Essentials
+  주소: |-
+    https://www.nsca.com/education/articles/nsca-coach/using-intensity-based-on-sets-and-repetitions-over-50-years-of-experience-a-brief-overview-of-load-setting-and-programming-strategy/
+  신뢰도: ★★☆
+적용_위치:
+  매트릭스:
+  - 목표: 벌크업
+    모듈: 메조사이클 관리
+  - 목표: 스트렝스
+    모듈: 메조사이클 관리
+  - 목표: 근육량 증가
+    모듈: 메조사이클 관리
+  - 목표: 건강증진
+    모듈: 세트별 처방
+  별도_레이어: []

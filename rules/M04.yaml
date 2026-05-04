@@ -1,0 +1,30 @@
+ID: M04
+분류: 측정/평가
+이름: 체중 대비 초보 무게 표준 (Untrained)
+한줄설명: |-
+  ExRx Untrained: 남 스쿼트 0.75x·벤치 0.5x·데드 1.0x·OHP 0.35x BW; 여 스쿼트 0.4x·벤치 0.25x·데드 0.5x·OHP 0.2x BW
+언제_발동: 시작 무게 합리성 검증
+쓰임새:
+  운동_추천: false
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 성별
+- 체중
+하는_일: 사용자 시작 무게가 Untrained 범위 내인지 검증 / 과대 입력 차단
+활용_예시: 70kg 남성 첫날 벤치 60kg 입력 → "Untrained 35kg 수준" 안내
+근거:
+  출처: ExRx.net Strength Standards
+  주소: https://exrx.net/Testing/WeightLifting/StrengthStandards
+  신뢰도: ★☆☆
+적용_위치:
+  매트릭스:
+  - 목표: 다이어트
+    모듈: 온보딩
+  - 목표: 벌크업
+    모듈: 온보딩
+  - 목표: 스트렝스
+    모듈: 온보딩
+  - 목표: 근육량 증가
+    모듈: 온보딩
+  별도_레이어: []

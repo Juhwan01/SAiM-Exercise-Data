@@ -1,0 +1,23 @@
+ID: N01
+분류: 생리학
+이름: 근비대 3 메커니즘
+한줄설명: |-
+  Mechanical tension(주요) · Metabolic stress(보조) · Muscle damage(부수). Tension이 핵심 드라이버
+언제_발동: KB
+쓰임새:
+  운동_추천: false
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- '-'
+하는_일: 처방 알고리즘 가중치
+활용_예시: tension 우선 → 풀ROM·진보적 과부하 알고리즘
+근거:
+  출처: Schoenfeld 2010 / Wackerhage 2019
+  주소: https://pubmed.ncbi.nlm.nih.gov/20847704/
+  신뢰도: ★★★
+적용_위치:
+  매트릭스:
+  - 목표: 근육량 증가
+    모듈: 행동·안전
+  별도_레이어: []

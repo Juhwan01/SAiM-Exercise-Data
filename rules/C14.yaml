@@ -1,0 +1,29 @@
+ID: C14
+분류: 세트/렙/강도 처방
+이름: 2주(3세션) 연속 미달 → Reset (-10%)
+한줄설명: 동일 무게에서 3세션 연속 목표렙 미달 시 작업 무게 -10% 후 점진 재진입 (Starting Strength reset rule)
+언제_발동: 진행 정체 감지 시
+쓰임새:
+  운동_추천: true
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 연속 stall 세션 수
+- 직전 작업 무게
+하는_일: 무게 ×0.9, 4~6주에 걸쳐 직전 PR 회복 후 초과 시도
+활용_예시: 100kg 3세션 정체 → 90kg 재시작 → 주당 +2.5kg 점진
+근거:
+  출처: 'Rippetoe, Starting Strength: Basic Barbell Training 3rd ed. — Reset 절차'
+  주소: https://startingstrength.com/article/the_first_three_questions
+  신뢰도: ★★★
+적용_위치:
+  매트릭스:
+  - 목표: 다이어트
+    모듈: 세트 후 학습
+  - 목표: 벌크업
+    모듈: 세트 후 학습
+  - 목표: 스트렝스
+    모듈: 세트 후 학습
+  - 목표: 근육량 증가
+    모듈: 세트 후 학습
+  별도_레이어: []

@@ -1,0 +1,28 @@
+ID: G11
+분류: 회복/디로드
+이름: 미달 누적 디로드 트리거
+한줄설명: 다관절 메인리프트 2개 이상이 같은 주에 stall + RPE 9~10 누적이면 1주 디로드 (볼륨 -50%, 강도 -10%)
+언제_발동: 주간 검토 시
+쓰임새:
+  운동_추천: true
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 주간 stall 리프트 수
+- 평균 RPE
+하는_일: 다음 주 디로드 프로그램 자동 처방 후 재진입
+활용_예시: 스쿼트·벤치 동시 stall + 평균 RPE 9.5 → 디로드 1주
+근거:
+  출처: |-
+    Israetel et al., Scientific Principles of Hypertrophy Training — Fatigue Management
+  주소: https://renaissanceperiodization.com/the-mesocycle-design-for-bodybuilders/
+  신뢰도: ★★☆
+적용_위치:
+  매트릭스:
+  - 목표: 벌크업
+    모듈: 메조사이클 관리
+  - 목표: 스트렝스
+    모듈: 메조사이클 관리
+  - 목표: 근육량 증가
+    모듈: 메조사이클 관리
+  별도_레이어: []

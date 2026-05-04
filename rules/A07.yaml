@@ -1,0 +1,32 @@
+ID: A07
+분류: RPE 자율조절
+이름: RTS Generalized RPE×렙 → %1RM 풀 매트릭스
+한줄설명: |-
+  Tuchscherer RTS 표준 변환표. 셀=%1RM. 1렙: RPE10=100·9=95.5·8=92.2 / 5렙: RPE10=86.3·9=83.7·8=81.1 / 8렙: RPE10=78.6·9=76.2·8=74.0 / 12렙: RPE10=71.3·9=70.3·8=67.5 (전체 매트릭스 RPE 6.5~10 × 렙 1~12)
+언제_발동: 세션 전 / 세트 직후
+쓰임새:
+  운동_추천: true
+  실시간_코칭: true
+  지식베이스: true
+필요한_정보:
+- 목표 RPE
+- 목표 렙수
+- 사용자 1RM
+하는_일: 추천 무게 = 1RM × 셀(%)
+활용_예시: 오늘 5렙 RPE8 입력 → 표 (5,8) = 81.1% → 1RM 100kg면 81kg 처방
+근거:
+  출처: Tuchscherer / RTS · PowerliftingToWin 정리
+  주소: |-
+    https://www.powerliftingtowin.com/a-review-of-mike-tuchscherer-reactive-training-systems-rts/
+  신뢰도: ★★☆
+적용_위치:
+  매트릭스:
+  - 목표: 다이어트
+    모듈: 세트별 처방
+  - 목표: 벌크업
+    모듈: 세트별 처방
+  - 목표: 스트렝스
+    모듈: 세트별 처방
+  - 목표: 근육량 증가
+    모듈: 세트별 처방
+  별도_레이어: []

@@ -1,0 +1,27 @@
+ID: C03
+분류: 세트/렙/강도 처방
+이름: NSCA 단계별 처방
+한줄설명: '근비대기: 50~75% 1RM, 8~20렙, 3~6세트 / 근력기: 80~95% 1RM, 2~6렙, 2~6세트'
+언제_발동: 세션 전
+쓰임새:
+  운동_추천: true
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 훈련 단계
+하는_일: 세트수+렙수+강도 처방
+활용_예시: 훈련 단계 전환 시 변수 자동 변경
+근거:
+  출처: NSCA / Bompa
+  주소: |-
+    https://www.nsca.com/education/articles/nsca-coach/using-intensity-based-on-sets-and-repetitions-over-50-years-of-experience-a-brief-overview-of-load-setting-and-programming-strategy/
+  신뢰도: ★★★
+적용_위치:
+  매트릭스:
+  - 목표: 벌크업
+    모듈: 세트별 처방
+  - 목표: 스트렝스
+    모듈: 세트별 처방
+  - 목표: 근육량 증가
+    모듈: 세트별 처방
+  별도_레이어: []

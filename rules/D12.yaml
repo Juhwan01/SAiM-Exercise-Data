@@ -1,0 +1,29 @@
+ID: D12
+분류: 주기화 모델
+이름: 초보자 빅3+OHP 디폴트 시작 무게 (여성)
+한줄설명: 여성 초보는 15kg 여성용 바벨(없으면 20kg) 빈 바로 스쿼트·벤치·OHP, 데드리프트는 30~40kg부터 시작
+언제_발동: 첫 세션 / 프로그램 진입
+쓰임새:
+  운동_추천: true
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 성별=여
+- 운동 경험=없음
+- 바벨 종류=15kg 또는 20kg
+하는_일: 스쿼트/벤치/OHP 15~20kg, 데드리프트 30~40kg
+활용_예시: 헬스장에 15kg 바 있으면 우선, 없으면 20kg 빈 바 + 폼 점검
+근거:
+  출처: IPF Technical Rules Book 2024 (15kg 여성 바)
+  주소: |-
+    https://www.powerlifting.sport/fileadmin/ipf/data/rules/technical-rules/english/IPF_Technical_Rules_Book_2024_24_Jan.pdf
+  신뢰도: ★★★
+적용_위치:
+  매트릭스:
+  - 목표: 벌크업
+    모듈: 온보딩
+  - 목표: 스트렝스
+    모듈: 온보딩
+  - 목표: 근육량 증가
+    모듈: 온보딩
+  별도_레이어: []

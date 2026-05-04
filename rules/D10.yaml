@@ -1,0 +1,25 @@
+ID: D10
+분류: 주기화 모델
+이름: PHUL/PHAT (하이브리드)
+한줄설명: 근력일+근비대일 결합 분할. 상/하분할 위에 일별 포커스 다름 (PHUL=4일, PHAT=5일)
+언제_발동: 초기 셋업
+쓰임새:
+  운동_추천: true
+  실시간_코칭: false
+  지식베이스: true
+필요한_정보:
+- 사용자 레벨(중급+) / 목표(파워+근비대)
+하는_일: 분할 처방
+활용_예시: 근력+사이즈 동시 추구하는 중급자
+근거:
+  출처: Layne Norton / Brandon Campbell
+  주소: |-
+    https://www.muscleandstrength.com/workouts/phat-power-hypertrophy-adaptive-training
+  신뢰도: ★★☆
+적용_위치:
+  매트릭스:
+  - 목표: 벌크업
+    모듈: 온보딩
+  - 목표: 근육량 증가
+    모듈: 온보딩
+  별도_레이어: []

@@ -1,0 +1,28 @@
+ID: A13
+분류: RPE 자율조절
+이름: 세션 간 RPE drift 보정
+한줄설명: |-
+  같은 무게·렙에서 RPE가 2주 이상 +1점 drift → 회복 부족. 다음 세션 -5% 또는 디로드. RPE -1점 drift → 적응 완료, +2.5~5% 진행
+언제_발동: 세션 시작 시
+쓰임새:
+  운동_추천: true
+  실시간_코칭: true
+  지식베이스: true
+필요한_정보:
+- 최근 2~3 세션의 동일 운동 RPE 추이
+하는_일: 다음 세션 무게 자동 조정 또는 디로드 권고
+활용_예시: '벤치 80kg×5 RPE8→8.5→9 추세: 다음 세션 76kg 또는 디로드. RPE8→7→6.5 추세: 82.5kg'
+근거:
+  출처: Tuchscherer "Deloading Effectively" / Helms 자율조절 원칙
+  주소: |-
+    https://store.reactivetrainingsystems.com/blogs/advanced-concepts/deloading-effectively
+  신뢰도: ★★☆
+적용_위치:
+  매트릭스:
+  - 목표: 벌크업
+    모듈: 세트 후 학습
+  - 목표: 스트렝스
+    모듈: 세트 후 학습
+  - 목표: 근육량 증가
+    모듈: 세트 후 학습
+  별도_레이어: []
